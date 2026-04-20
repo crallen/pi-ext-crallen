@@ -1,0 +1,30 @@
+{
+  "name": "pi-ext-crallen",
+  "version": "0.1.0",
+  "description": "Pi package with a sensitive-file guard, development workflow skills, and prompt templates for code review, commits, and design specs",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "scripts": {
+    "clean": "echo 'nothing to clean'",
+    "build": "echo 'nothing to build'",
+    "check": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "*",
+    "@mariozechner/pi-ai": "*"
+  },
+  "author": "Chris Allen <crallen@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crallen/pi-ext-crallen.git"
+  },
+  "homepage": "https://github.com/crallen/pi-ext-crallen"
+}
