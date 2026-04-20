@@ -1,6 +1,6 @@
 # pi-ext-crallen
 
-A [pi](https://github.com/nicholasgasior/pi-coding-agent) package that bundles a development workflow extension, on-demand skills, and prompt templates.
+A [pi](https://pi.dev) package that bundles a development workflow extension, on-demand skills, and prompt templates.
 
 ## What's Included
 
